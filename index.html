@@ -1,95 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css" />
-    <title>Portfolio Site</title>
-</head>
+    <title>Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png" />
+    <link rel="manifest" href="images/icons/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <h1>
+            <a href="http://abdullahothman.me/">
+              <span class="fas fa-code" aria-hidden="true"></span>
+              <span>Abdullah Othman</span>
+            </a>
+          </h1>
+        </li>
 
-<body>
-    <div class="container">
-        <header class="navbar">
-            <div class="left">Patrick Star</div>
-            <nav class="right">
-                <a href="#work">Work</a>
-                <a href="#contact">Contact</a>
-                <a href="#dribble">
-                    <img src="images/dribble_icon.png" alt="">
-                </a>
-                <a href="#dribble">
-                    <img src="images/insta_icon.png" alt="">
-                </a>
-                <a href="#dribble">
-                    <img src="images/v_icon.png" alt="">
-                </a>
-            </nav>
-            <div class="hamburger">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-        </header>
-        <nav class="mobileNav">
-            <a href="#work">Work</a>
-            <a href="#contact">Contact</a>
-            <a href="#dribble">
-                <img src="images/dribble_icon.png" alt="">
-            </a>
-            <a href="#dribble">
-                <img src="images/insta_icon.png" alt="">
-            </a>
-            <a href="#dribble">
-                <img src="images/v_icon.png" alt="">
-            </a>
-        </nav>
-        <div class="project-grid">
-            <div class="project" id="eth">
-                <img src="images/eth.avif" alt="">
-                <p class="overlay">VIEW PROJECT</p>
-            </div>
-            <div class="project" id="alphabet">
-                <img src="images/alphabet.avif" alt="">
-                <p class="overlay">VIEW PROJECT</p>
-            </div>
-            <div class="project" id="traveler">
-                <img src="images/traveler.avif" alt="">
-                <p class="overlay">VIEW PROJECT</p>
-            </div>
-            <div class="project" id="cube">
-                <img src="images/cube.avif" alt="">
-                <p class="overlay">VIEW PROJECT</p>
-            </div>
-            <div class="project" id="astro">
-                <img src="images/astro.avif" alt="">
-                <p class="overlay white">VIEW PROJECT</p>
-            </div>
-            <div class="project" id="cup">
-                <img src="images/cup.avif" alt="">
-                <p class="overlay">VIEW PROJECT</p>
-            </div>
-            <div class="project" id="insta">
-                <img src="images/insta.avif" alt="">
-                <p class="overlay white">VIEW PROJECT</p>
-            </div>
-            <div class="project" id="foam">
-                <img src="images/foam.avif" alt="">
-                <p class="overlay">VIEW PROJECT</p>
-            </div>
-            <div class="project" id="dimensional">
-                <img src="images/dimensional.avif" alt="">
-                <p class="overlay white">VIEW PROJECT</p>
-            </div>
-        </div>
-        <footer class="footer">Designed and built by Patrick Star in Bikini Bottom.</footer>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/abdallah-abdelgelil-945023140/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin" style="color: #568be6"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/abdallahothman9" target="_blank"
+            ><i class="fa-brands fa-square-github" style="color: #568bdc"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="btn"
+            target="_blank"
+            href="https://docs.google.com/document/d/1UGkD8xqAuAzSCTtbVRfR7i2iz7MFHMgMNKidFpLeojU/edit?usp=sharing"
+            >Resume</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <section id="intro">
+      <p class="name">Hi, my name is<span>Abdullah Othman.</span></p>
+
+      <h2>I'm a front-end developer.</h2>
+      <p>
+        Motivated Front-end Engineer proficient in HTML, CSS, JavaScript, and
+        React. Committed to creating accessible webpages for an inclusive user
+        experience. Seeking opportunities to apply skills and collaborate with a
+        dynamic team.
+      </p>
+    </section>
+
+    <div class="section-connections">
+      <section id="contact">
+        <h2>Contact me</h2>
+        <p>
+          I'm always interested in hearing about new front-end opportunities.
+        </p>
+        <p><a class="btn" href="mailto:jen@example.com">Email me</a></p>
+      </section>
     </div>
-
-    <script src="index.js"></script>
-</body>
-
+    <footer>
+      <p>Abdullah Othman.Educator</p>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/abdallah-abdelgelil-945023140/"
+            ><span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/abdallahothman9"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://stackoverflow.com/users/21986159/abdullah-othman"
+            ><i class="fa-brands fa-stack-overflow"></i
+          ></a>
+        </li>
+      </ul>
+      <p>&copy;2023 Abdullah Othman.All rights reserved.</p>
+    </footer>
+  </body>
 </html>
